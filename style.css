@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 40%;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+}
+.button1{
+    height: 150px;
+    background-color: purple;
+    border-radius: 100px;
+}
+.button2{
+    height: 150px;
+    background-color: orangered;
+    border-radius: 100px;
+}
+.button1:hover{
+    background-color: rgb(155, 1, 155);
+}
+.button2:hover{
+    background-color: rgb(249, 84, 23);
+}
